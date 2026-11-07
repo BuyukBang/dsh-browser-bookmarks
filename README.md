@@ -2,8 +2,6 @@
 
 A DeepSeek Harness client plugin that adds an integrated bookmark manager to the right sidebar Browser panel.
 
-![Bookmarks Demo](assets/preview.png)
-
 ## Overview
 
 In DeepSeek Harness, the sidebar Browser lets you preview websites and test web interfaces alongside your chat conversations. `dsh-browser-bookmarks` enriches this browser view by adding a star button directly into the toolbar between the Reload button and the address bar.
@@ -37,7 +35,7 @@ dsh plugin --profile desktop add dsh-browser-bookmarks
 Clone or copy the repository into your profile's `node_modules` or `plugins` directory:
 
 ```bash
-git clone https://github.com/your-username/dsh-browser-bookmarks.git ~/.dsh/plugins/dsh-browser-bookmarks
+git clone https://github.com/BuyukBang/dsh-browser-bookmarks.git ~/.dsh/plugins/dsh-browser-bookmarks
 ```
 
 Register it in `~/.dsh/profiles/desktop/package.json`:
